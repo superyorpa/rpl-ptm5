@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPL - PTM 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Hello, How are You Today?</h1>
+
+    <input type="text" id="nameInput" placeholder="Enter your name...">
+
+    <div class="mood-buttons">
+      <button onclick="setMood('happy')">😊 Happy</button>
+      <button onclick="setMood('neutral')">😐 Neutral</button>
+      <button onclick="setMood('sad')">😢 Sad</button>
+      <button onclick="setMood('cool')">😎 Cool</button>
+    </div>
+
+    <h2 id="greeting"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
