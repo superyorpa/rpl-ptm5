@@ -3,7 +3,7 @@ function setMood(mood) {
   const greeting = document.getElementById("greeting");
 
   if (name.trim() === "") {
-    greeting.textContent = "Please enter your name first!";
+    greeting.textContent = "⚠️ Please enter your name first!";
     return;
   }
 
@@ -19,7 +19,7 @@ function setMood(mood) {
     bg = "#7f8c8d";
   } 
   else if (mood === "sad") {
-    message = "Stay strong! You can do it 💙";
+    message = "Stay strong! You can do it 🙌";
     bg = "#3498db";
   } 
   else if (mood === "cool") {
