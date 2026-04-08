@@ -3,6 +3,8 @@ body {
   font-family: Arial;
   text-align: center;
   transition: 0.5s;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
 }
 
 .container {
@@ -34,6 +36,13 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background: #222;
+  color: white;
+  transition: 0.3s;
+}
+button:hover {
+  background: #444;
+  transform: scale(1.05);
 }
 
 h2 {
